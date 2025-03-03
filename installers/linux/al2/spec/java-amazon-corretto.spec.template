@@ -403,12 +403,6 @@ fi
 %{java_lib}/libawt_xawt.so
 %{java_lib}/libjawt.so
 %{java_lib}/libsplashscreen.so
-%{java_home}/man/man1/jabswitch.1
-%{java_home}/man/man1/jaccessinspector.1
-%{java_home}/man/man1/jaccesswalker.1
-%{java_home}/man/man1/kinit.1
-%{java_home}/man/man1/klist.1
-%{java_home}/man/man1/ktab.1
 
 %files headless
 %config(noreplace) %{java_home}/conf/logging.properties
