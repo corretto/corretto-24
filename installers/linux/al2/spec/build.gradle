@@ -73,6 +73,10 @@ task copySourceTar(type: Tar) {
     from(tarTree(project.configurations.compile.singleFile)) {
         into '/'
     }
+    // Include the man pages tarball if it exists
+    from(file("sources/jdk24-manpages.tar.gz")) {
+        into '/'
+    }
 }
 
 task rpmBuild(type: Exec) {
