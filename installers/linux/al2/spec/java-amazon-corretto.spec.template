@@ -435,12 +435,6 @@ fi
 %{java_home}/conf
 %{java_home}/legal
 %{java_home}/lib
-%{java_home}/man/man1/jabswitch.1
-%{java_home}/man/man1/jaccessinspector.1
-%{java_home}/man/man1/jaccesswalker.1
-%{java_home}/man/man1/kinit.1
-%{java_home}/man/man1/klist.1
-%{java_home}/man/man1/ktab.1
 %dir %{java_home}/man
 %dir %{java_home}/man/man1
 %{java_home}/man/man1/java.1
@@ -511,12 +505,6 @@ fi
 %{java_home}/man/man1/jstatd.1
 %{java_home}/man/man1/jwebserver.1
 %{java_home}/man/man1/serialver.1
-%{java_home}/man/man1/jabswitch.1
-%{java_home}/man/man1/jaccessinspector.1
-%{java_home}/man/man1/jaccesswalker.1
-%{java_home}/man/man1/kinit.1
-%{java_home}/man/man1/klist.1
-%{java_home}/man/man1/ktab.1
 
 %files jmods
 %{java_home}/jmods
