@@ -2,8 +2,8 @@
 
 The following sections describe the changes for each release of Amazon Corretto 24.
 
-## Corretto version: 24.0.0.36.1
-Release Date: February 10, 2025
+## Corretto version: 24.0.0.36.2
+Release Date: March 18, 2025
 
 **Target Platforms <sup>1</sup>**
 
@@ -21,8 +21,9 @@ Release Date: February 10, 2025
 **1.** This is the platform targeted by the build. See [Using Amazon Corretto](https://aws.amazon.com/corretto/faqs/#Using_Amazon_Corretto)
 in the Amazon Corretto FAQ for supported platforms
 
-The following issues are addressed in 24.0.0.36.1:
+The following issues are addressed in 24.0.0.36.2:
 
-| Issue Name       | Platform | Description                                | Link                                                               |
-|------------------|----------|--------------------------------------------|--------------------------------------------------------------------|
-| Import jdk-24+36 | All      | Updates Corretto baseline to OpenJDK 24+36 | [jdk-24+36](https://github.com/openjdk/jdk/releases/tag/jdk-24+36) |
+| Issue Name                | Platform     | Description                                | Link                                                              |
+|---------------------------|--------------|--------------------------------------------|-------------------------------------------------------------------|
+| Import jdk-24+36          | All          | Updates Corretto baseline to OpenJDK 24+36 | [jdk-24+36](https://github.com/openjdk/jdk/releases/tag/jdk-24+36) |
+| Generate man pages for AL | Amazon Linux | Include man pages in the config            | [Github PR](https://github.com/corretto/corretto-24/pull/5)       |
