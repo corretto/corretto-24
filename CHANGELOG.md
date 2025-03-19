@@ -3,7 +3,7 @@
 The following sections describe the changes for each release of Amazon Corretto 24.
 
 ## Corretto version: 24.0.0.36.3
-Release Date: March 18, 2025
+Release Date: March 19, 2025
 
 **Target Platforms <sup>1</sup>**
 
@@ -11,11 +11,6 @@ Release Date: March 18, 2025
 + Debian-based Linux using glibc 2.17 or later, x86_64
 + RPM-based Linux using glibc 2.17 or later, aarch64
 + Debian-based Linux using glibc 2.17 or later, aarch64
-+ Alpine-based Linux, x86_64
-+ Alpine-based Linux, aarch64
-+ Windows 10 or later, x86_64
-+ macos 13.0 and later, x86_64
-+ macos 13.0 and later, aarch64
 
 
 **1.** This is the platform targeted by the build. See [Using Amazon Corretto](https://aws.amazon.com/corretto/faqs/#Using_Amazon_Corretto)
@@ -23,9 +18,9 @@ in the Amazon Corretto FAQ for supported platforms
 
 The following issues are addressed in 24.0.0.36.3:
 
-| Issue Name                | Platform     | Description                                                                                                                                                               | Link                                                               |
-|---------------------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| Remove java.policy and default.policy from build.gradle | All          | Following JEP486 [#1](https://github.com/corretto/corretto-24/pull/1) build.gradle was not updated to remove conf/security/java.policy and lib/security/default.policy. | [#7](https://github.com/corretto/corretto-24/pull/7)               |
+| Issue Name                | Platform  | Description                                                                                                                                                               | Link                                                               |
+|---------------------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Remove java.policy and default.policy from build.gradle | All Linux | Following JEP486 [#1](https://github.com/corretto/corretto-24/pull/1) build.gradle was not updated to remove conf/security/java.policy and lib/security/default.policy. | [#7](https://github.com/corretto/corretto-24/pull/7)               |
 
 
 ## Corretto version: 24.0.0.36.2
