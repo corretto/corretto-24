@@ -21,7 +21,7 @@ jobs:
         run: |
           git config user.email "no-reply@amazon.com"
           git config user.name "corretto-github-robot"
-      - name: "Merge openjdk/jdk:jdk24u:master to the corretto-24:develop"
+      - name: "Merge openjdk/jdk24u:master to the corretto-24:develop"
         run: |
           git fetch $UPSTREAM_REMOTE master || exit 1
           git merge -m "Merge upstream-jdk" FETCH_HEAD
