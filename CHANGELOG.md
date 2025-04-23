@@ -21,7 +21,7 @@ The following issues above are addressed in 24.0.1.9.1
 
 | Issue Name | Platform | Description | Link |
 |------------|----------|-------------|------|
-| Import jdk-24.0.1+9 | All | Updates Corretto baseline to OpenJDK 24.0.1+9 | [jdk-24.0.1+9](https://github.com/openjdk/jdk23u/releases/tag/jdk-24.0.1+9) |
+| Import jdk-24.0.1+9 | All | Updates Corretto baseline to OpenJDK 24.0.1+9 | [jdk-24.0.1+9](https://github.com/openjdk/jdk24u/releases/tag/jdk-24.0.1+9) |
 | (tz) Update Timezone Data to 2025b | All | Update tz code and data to use 2025b release | [JDK-8352716](https://bugs.openjdk.org/browse/JDK-8352716) |
 
 
