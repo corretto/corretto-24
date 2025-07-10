@@ -2,6 +2,36 @@
 
 The following sections describe the changes for each release of Amazon Corretto 24.
 
+## Corretto version: 24.0.2.12.1
+Release Date: July 15, 2025
+ 
+**Target Platforms**
+ 
++ RPM-based Linux using glibc 2.17 or later, x86_64
++ Debian-based Linux using glibc 2.17 or later, x86_64
++ RPM-based Linux using glibc 2.17 or later, aarch64
++ Debian-based Linux using glibc 2.17 or later, aarch64
++ Alpine-based Linux, x86_64
++ Alpine-based Linux, aarch64
++ Windows 10 or later, x86_64
++ macos 13.0 and later, x86_64
++ macos 13.0 and later, aarch64
+ 
+The following issues above are addressed in 24.0.2.12.1
+
+| Issue Name           | Platform | Description                                    | Link                                                                          |
+|----------------------|----------|------------------------------------------------|-------------------------------------------------------------------------------|
+| Import jdk-24.0.2+12 | All      | Updates Corretto baseline to OpenJDK 24.0.2+12 | [jdk-24.0.2+12](https://github.com/openjdk/jdk24u/releases/tag/jdk-24.0.2+12) |
+
+The following CVEs are addressed in 24.0.2.12.1
+
+| CVE            | CVSS | Component                   |
+|----------------|------|-----------------------------|
+| CVE-2025-50059 | 8.6  | core-libs/java.net          |
+| CVE-2025-30749 | 8.1  | client-libs/2d              |
+| CVE-2025-50106 | 8.1  | client-libs/2d              |
+| CVE-2025-30754 | 4.8  | security-libs/javax.net.ssl |
+
 ## Corretto version: 24.0.1.9.1
 Release Date: April 15, 2025
  
